@@ -1,0 +1,50 @@
+body {
+    color: 	#708090;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    padding: 0 20px 0 20px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-family: 'Comfortaa', cursive;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    min-width: 200px;
+    max-width: 400px;
+    justify-content: space-around;
+    margin: auto;
+    padding: 10px;
+}
+
+li {
+    color: black
+}
+
+a:visited {
+    color: black
+}
+
+a:hover {
+    color: grey
+}
+
+a {
+    text-decoration: none;
+    color: black
+}
+
+footer {  
+    
+    padding: 20px;
+    border-top: 1px solid lightgray
+
+}
