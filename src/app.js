@@ -14,6 +14,9 @@ const { forecast } = require("./utils/coordinate");
 
 const app = express();
 
+//adding heroku port
+const port = process.env.PORT || 3000;
+
 // handlebars => templating engine form JS
 
 //47. hbs => handlebars for express
@@ -148,8 +151,6 @@ app.get("/*", (req, res) => {
 //   res.send("<h1>About</h1>");
 // });
 
-//adding heroku port
-const port = process.env.PORT || 3000;
 console.log(port);
 app.listen(port, () => {
   console.log(`Server is listening on port ${port}`);
