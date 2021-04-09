@@ -148,7 +148,8 @@ app.get("/*", (req, res) => {
 //   res.send("<h1>About</h1>");
 // });
 
-const port = process.env.PORT;
+//adding heroku port
+const port = process.env.PORT || 3000;
 console.log(port);
 app.listen(port, () => {
   console.log(`Server is listening on port ${port}`);

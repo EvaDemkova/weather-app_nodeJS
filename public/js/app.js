@@ -21,7 +21,8 @@ const weather = document.querySelector("#weather");
 form.addEventListener("submit", (e) => {
   e.preventDefault();
   const location = input.value;
-  const url = `http://localhost:3000/weather?address=${location}`;
+  //after heroku applocation http://localhost:3000/weather?address=${location} will be change only to /weather?adress....
+  const url = `/weather?address=${location}`;
 
   place.textContent = "Loading ...";
   prec.textContent = "";
