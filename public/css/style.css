@@ -22,7 +22,11 @@ ul {
     max-width: 400px;
     justify-content: space-around;
     margin: auto;
-    padding: 10px;
+    padding: 5px;
+}
+
+p {
+    margin: 5px;
 }
 
 li {
